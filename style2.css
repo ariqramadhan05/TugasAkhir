@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto';
+}
+.clear{
+    clear: both;
+}
+div{
+    display: block;
+}
+header{
+	width: 100%;
+    height: 130px;
+    padding-top: 50px;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.nav {
+    height: 80px;
+    padding: 10px 0px;
+    background: #0093dd;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.logo {
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+.menu {
+    position: relative;
+    width: 75%;
+    padding-left: 5px;
+    float: left;
+}    
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+    float: left;
+    line-height: 80px;
+    position: relative;
+}
+.menu ul li a {
+    color: #f7f7f7;
+    display: block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+	color: #C3C3C3;
+}
+a{
+	text-decoration: none;
+}
+.search {
+    float: right;
+    border-radius: 3px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    margin: 20px 5px 20px 0px;
+}
+.search form {
+    background: #fff;
+}
+.search input[type="text"] {
+    padding: 8px 5px;
+    font-size: 13px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+.kepsek {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 4px solid #0093dd;
+    margin: 20px auto 20px auto;
+}
+.kepsek img {
+    width: 100%;
+    min-height: 100px;
+    padding: 0 !important;
+    border: none !important;
+}
+.title{
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 5px solid #ccc;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.content{
+    font-family: 'Roboto';
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h2{
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-bottom: 10px;
+    line-height: 21px;
+}
+h2 a{
+    color: #0093dd;
+}
+h2 a:hover{
+    color: #0071AB;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+footer {
+    padding: 30px 0;
+    width: 100%;
+    border-top: 5px solid #ccc;
+}
+.widget {
+    width: 50%;
+    margin-right: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.widget_box {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+.widget_title h5 {
+    font-size: 18px;
+    padding: 15px 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.widget_box ul {
+    list-style: none;
+}
+.widget_box ul li {
+    padding: 4px 0;
+}
+.widget_box a {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #4E4E4E;
+}
+.widget_box a:hover{
+    color: #0093dd;
+}
+.widget_box p {
+    font-weight: bold;
+    color: #4E4E4E;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-family: 'Roboto';
+}
+.saran {
+    width: 46%;
+    position: relative;
+    float: right;
+}
+.social {
+    margin: 15px 0;
+    left: 100%;
+}
+.left {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+}
+.social a {
+    width: 48px;
+    height: 48px;
+    display: block;
+    left: 0px;
+}
+.fb {
+    background-position: 0px 0px;
+}
+.twitter {
+    background-position: 0px -96px;
+}
+.gplus {
+    background-position: 0px -192px;
+}
+.copyright {
+    width: 100%;
+    background: #282828;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.copyright a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+.copyright a:hover{
+    color: #0093dd;
+}
+.copy_left {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+.copy_right {
+    text-align: right;
+}
+.copy_right, .copy_left {
+    font-size: 14px;
+    font-family: 'Roboto';
+}
